@@ -32,6 +32,7 @@
             }else{
                 echo "<span style='color: red'>coś poszło nie tak</span>";
             }
+            mysqli_close($con);
         }
     ?>
 </body>
